@@ -1,3 +1,16 @@
-body {
-  background-color: blue;
+.wrapper {
+  width: 400px;
+  height: 500px;
+  background-color: green;
+}
+.row {
+  border: 2px solid black;
+  text-align: center;
+  width: 395px;
+  height: 79px;
+}
+
+.row1 {
+  background-color: black;
+
 }
