@@ -22,6 +22,7 @@
   width: 100%;
   height: 100%;
   justify-content: flex-end;
+
 }
 
 .btne{
@@ -36,13 +37,29 @@
   font-weight: bold;
 }
 
+.btno:hover{
+background-color: #ebebeb;
+}
+
+.btno:active{
+  color: #dd8d37;
+}
+
 .btng {
   color:#000000;
   background-color: #d8d9db;
   font-size: 30px;
   font-weight: bold;
-
 }
+
+.btng:hover {
+  background-color: #dfb07e;
+}
+
+.btng:active{
+ color: #bbbcbe
+}
+
 .cbtn {
   flex: 1 50%;
 }
