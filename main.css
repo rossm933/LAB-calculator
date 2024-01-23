@@ -3,7 +3,7 @@
   height: 500px;
   background-color: black;
 }
-.display {
+#display {
   border: 2px solid black;
   text-align: center;
   width: 98%;
@@ -72,3 +72,4 @@ background-color: #ebebeb;
 .zbtn {
   flex: 1 75%;
 }
+

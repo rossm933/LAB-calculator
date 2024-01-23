@@ -8,25 +8,25 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="display">0</div>
+    <div class="display" id="display">0</div>
     <div class="buttons">
-    <button class="btng btns cbtn">C</button>
-    <button class="btng btns abtn">&#8592;</button>
-    <button class="btno btns dbtn">&#247;</button>
-    <button class="btng btne">&#55;</button>
-    <button class="btng btne">&#56;</button>
-    <button class="btng btne">&#57;</button>
-    <button class="btno btne">&#215;</button>
-    <button class="btng btne">&#52;</button>
-    <button class="btng btne">&#53;</button>
-    <button class="btng btne">&#54;</button>
-    <button class="btno btne">&#8722;</button>
-    <button class="btng btne">&#49;</button>
-    <button class="btng btne">&#50;</button>
-    <button class="btng btne">&#51;</button>
-    <button class="btno btne">&#43;</button>
-    <button class="btng btne zbtn">&#48;</button>
-    <button class="btno btne">&#61;</button>
+      <button class="btng btns cbtn" onclick="clearResult()">C</button>
+      <button class="btng btns abtn" onclick="deleteLastCharacter()">&#8592;</button>
+      <button class="btno btns dbtn ope" onclick="appendToResult('/')">&#247;</button>
+      <button class="btng btne num" onclick="appendToResult('7')">&#55;</button>
+      <button class="btng btne num" onclick="appendToResult('8')">&#56;</button>
+      <button class="btng btne num" onclick="appendToResult('9')">&#57;</button>
+      <button class="btno btne ope" onclick="appendToResult('*')">&#215;</button>
+      <button class="btng btne num" onclick="appendToResult('4')">&#52;</button>
+      <button class="btng btne num" onclick="appendToResult('5')">&#53;</button>
+      <button class="btng btne num" onclick="appendToResult('6')">&#54;</button>
+      <button class="btno btne ope" onclick="appendToResult('-')">&#8722;</button>
+      <button class="btng btne num" onclick="appendToResult('1')">&#49;</button>
+      <button class="btng btne num" onclick="appendToResult('2')">&#50;</button>
+      <button class="btng btne num" onclick="appendToResult('3')">&#51;</button>
+      <button class="btno btne num ope" onclick="appendToResult('+')">&#43;</button>
+      <button class="btng btne zbtn num" onclick="appendToResult('0')">&#48;</button>
+      <button class="btno btne ope" onclick="calculateResult()">&#61;</button>
     </div>
   </div>
   <script src="main.js"></script>
